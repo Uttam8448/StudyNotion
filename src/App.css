@@ -1,0 +1,17 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    overflow-x:hidden ;
+}
+.homepage_bg{
+    background: url("../src/assets/Images/bghome.svg");
+}
+.bgCodeblock1{
+    background-image: radial-gradient(circle, rgba(255, 166, 0, 0.192), transparent );
+} 
+.bgCodeblock2{
+    background-image: radial-gradient(circle, rgba(0, 221, 255, 0.192), transparent );
+} 
