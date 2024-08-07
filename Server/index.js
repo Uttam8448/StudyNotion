@@ -45,12 +45,12 @@ app.use("/api/v1/profile",profileRoutes);
 app.use("/api/v1/course",courseRoutes);
 app.use("/api/v1/payment",paymentRoutes);
 
-// app.get("/",(req,res) => {
-//     return res.json({
-//         success:true,
-//         message:"Your Server is up & running",
-//     })
-// })
+app.get("/",(req,res) => {
+    return res.json({
+        success:true,
+        message:"Your Server is up & running",
+    })
+})
 
 app.listen(PORT, () => {
     console.log(`App is running at ${PORT}`);
