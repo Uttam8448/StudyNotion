@@ -24,7 +24,7 @@ app.use(cookieParser());
 //to integrate backend and frontend
 app.use(
     cors({
-        origin : "http://localhost:3000",
+        origin : "https://study-notion-frontend-sepia.vercel.app/",
         credentials:true,
     })
 )
